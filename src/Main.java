@@ -226,9 +226,16 @@ public class Main {
         arraysplit = splitRaw.split("1", 0);
         print(Arrays.toString(arraysplit));
 
+
+        Long vLong = 9L;
+        int vInt = Long.valueOf(vLong).intValue();
+
+        print(String.format("vLong: %d, int: %d", vLong, vInt));
+
     }
 
-    private void TestSingalChar() {
+    @Test
+    public void TestSingleChar() {
         char a = 'a';
         char b = 'b';
         char c = 'b';
@@ -525,12 +532,12 @@ public class Main {
     public int[] nextGreaterElement(int[] nums1, int[] nums2) {
 
         int[] results = new int[nums1.length];
-//        List<Integer> N = Arrays.asList(results);
-//        for (int i: nums1) {  
-//            int index = nums2.
-//        }
-
-//        synchronized ()
+        // List<Integer> N = Arrays.asList(results);
+        // for (int i: nums1) {
+        //     int index = nums2.
+        // }
+        //
+        // synchronized ()
 
         Set s = new HashSet<Integer>();
         Lock lock = new ReentrantLock();
@@ -564,9 +571,23 @@ public class Main {
         print("removeItem: " + removeItem);
     }
 
-    public void testSetValue() {
+    @Test
+    public void testSet() {
         char c = 65;
         System.out.println("c = " + c);
+
+        Map<Integer, Integer> map = new HashMap<>();
+
+        map.put(1, 2);
+        map.put(2, 4);
+        map.put(5, 4);
+        map.put(6, 4);
+
+        Integer[] store = map.keySet().toArray(new Integer[0]);
+
+        for (int i = 0; i < store.length; ++i) {
+            print(String.format("i: %d, val: %s", i, store[i]));
+        }
     }
 
     @Test
@@ -909,6 +930,16 @@ public class Main {
         String v1 = "abc";
         String v2 = String.valueOf('c');
         print(String.format("v1: %s, v2: %s", v1, v2));
+
+        v1 = "  a B C d Efa  ";
+
+        v1.toLowerCase();
+        v1.toUpperCase();
+
+        StringBuilder v1Sb = new StringBuilder(v1);
+        String v1Trim = v1Sb.toString().trim();
+
+        print(String.format("v1Sb: %s, v1Trim: [%s]", v1Sb, v1Trim));
 
     }
 
@@ -1434,6 +1465,22 @@ public class Main {
         print(String.format("char: %c, int: %d", '0', v_0));
         int v_9 = '9';
         print(String.format("char: %c, int: %d", '0', v_9));
+    }
+
+    @Test
+    public void testPriorityQueue() {
+        Queue<Integer> queue = new PriorityQueue<>(4);
+        for (int i = 10; i >= 0; --i) {
+            queue.add(i);
+            queue.remove();
+        }
+
+        print(String.format("queue size: %d, content: %s", queue.size(), queue));
+
+        while (!queue.isEmpty()) {
+            print(String.format("val: %d", queue.poll()));
+        }
+
     }
 }
 
