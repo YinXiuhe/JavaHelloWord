@@ -1,3 +1,4 @@
+import com.sun.org.apache.xml.internal.serialize.LineSeparator;
 import org.junit.Assert;
 import org.junit.Rule;
 import org.junit.Test;
@@ -320,11 +321,13 @@ public class Main {
     public void testArrayList() {
         int m = 10;
         List<Integer> list = new ArrayList<>(m);
+
         for (int i = m - 1; i >= 0; --i) {
             list.add(0, i);
         }
-        print(String.format("V1: array: %s", list.toArray()));
-        print(String.format("V2: array: %s", list.toString()));
+
+        print(String.format("V1: array: %s, size: %d", Arrays.toString(list.toArray()), list.size()));
+        print(String.format("V2: array: %s, size: %d", list.toString(), list.size()));
 
         Integer[] array = new Integer[3];
         array[0] = 0;
@@ -605,8 +608,7 @@ public class Main {
         list.add(0);
         list.add(1);
 
-        Integer[] nums = new Integer[list.size()];
-        nums = list.toArray(nums);
+        Integer[] nums = list.toArray(new Integer[0]);
 
         print(Arrays.toString(nums));
         Integer[] array = new Integer[list.size()];
@@ -626,9 +628,9 @@ public class Main {
         sortedMap.put(1, 10);
         sortedMap.put(2, 4);
         sortedMap.put(0, 0);
-        // < key;
+        // < key; [)
         String headVal = sortedMap.headMap(1).toString();
-        // >= key
+        // >= key [
         String tailVal = sortedMap.tailMap(1).toString();
 
         print(String.format("head: %s, tail: %s", headVal, tailVal));
@@ -1343,6 +1345,18 @@ public class Main {
         for (int i = 0; i < 10; ++i) {
             map.put(i, i * 10);
         }
+
+        Set<Integer> keys = map.keySet();
+        print("Output key:");
+        StringBuilder sb = new StringBuilder();
+
+        for(Integer key : keys) {
+            sb.append(key);
+            sb.append("\n");
+        }
+
+        print(sb.toString());
+
         Collection<Integer> values = map.values();
 
         for (int v : values) {
@@ -1354,6 +1368,12 @@ public class Main {
         Arrays.sort(array, (a,b)->(b-a));
         for (Integer v : array) {
             print("toArray : " + v);
+        }
+
+        Set<Integer> keySet = map.keySet();
+
+        for (Integer key : keySet) {
+            print(key);
         }
     }
 
