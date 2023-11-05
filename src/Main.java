@@ -191,8 +191,8 @@ public class Main {
         }
 
         int n = 10;
-        int[][] array = new int[n][];
-        int[] singel = new int[5];
+        // int[][] array = new int[n][];
+        // int[] single = new int[5];
 
         List<Integer> list = new ArrayList<Integer>();
         int a = 0;
