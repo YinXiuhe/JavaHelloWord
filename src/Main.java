@@ -190,11 +190,11 @@ public class Main {
             }
         }
 
-        int n = 10;
+        // int n = 10;
         // int[][] array = new int[n][];
         // int[] single = new int[5];
 
-        List<Integer> list = new ArrayList<Integer>();
+        List<Integer> list = new ArrayList<>();
         int a = 0;
         list.add(a);
         a = 2;
