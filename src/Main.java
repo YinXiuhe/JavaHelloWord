@@ -1,18 +1,11 @@
-import com.sun.org.apache.xml.internal.serialize.LineSeparator;
 import org.junit.Assert;
-import org.junit.Rule;
 import org.junit.Test;
-import sun.jvm.hotspot.utilities.BitMap;
 
 import java.util.*;
 import java.util.concurrent.*;
 import java.util.concurrent.atomic.AtomicInteger;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
-import java.util.BitSet;
-import java.util.regex.Pattern;
-
-import static com.sun.tools.doclint.Entity.lambda;
 
 class Node {
     public int val;
@@ -306,7 +299,15 @@ public class Main {
 
     @Test
     public void testBitSet() {
-        BitSet bitSet = new BitSet(10);
+        BitSet bitSet63 = new BitSet(63);
+        Assert.assertEquals(64, bitSet63.size());
+        BitSet bitSet65 = new BitSet(65);
+        Assert.assertEquals(128, bitSet65.size());
+
+        BitSet bitSet = new BitSet(64);
+        Assert.assertEquals(64, bitSet.size());
+
+        print("bitSet.size: " + bitSet.size());
         bitSet.set(0);
         bitSet.get(0);
         bitSet.clear(0);
@@ -315,6 +316,11 @@ public class Main {
         // clear 1 position
         bitSet.clear(0, 1);
         bitSet.size();
+        bitSet.flip(0);
+
+        for (int i = 0; i < bitSet.size(); ++i) {
+            print(" " + i + ":" + bitSet.get(i));
+        }
     }
 
     @Test
