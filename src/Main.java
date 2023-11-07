@@ -700,6 +700,9 @@ public class Main {
         int last = sortedSet.last();
         print(String.format("first: %d, last: %d", first, last));
 
+        boolean r = sortedSet.remove(first);
+        Assert.assertTrue(r);
+
     }
 
     @Test
@@ -1063,6 +1066,14 @@ public class Main {
         // 1. List<Array>
         List<Integer[]> listArray = new LinkedList<>();
 
+        listArray.add(0, new Integer[1]);
+        listArray.set(0, new Integer[5]);
+
+        // print
+        for (int i = 0; i < listArray.size(); ++i) {
+            print(String.format("ListArray [%d]: %s", i, Arrays.toString(listArray.get(i))));
+        }
+
         int m = 4;
         int n = 5;
         int v = 0;
@@ -1101,6 +1112,9 @@ public class Main {
         for (int i = 0; i < size; ++i) {
             print(String.format("ArrayList [%d]: %s", i, arrayList[i]));
         }
+
+        Integer r = new Integer(0);
+        r.intValue();
     }
 
     @Test
