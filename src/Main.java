@@ -982,6 +982,12 @@ public class Main {
 
     @Test
     public void subStringByBytes() {
+        String singleCharStr = "A";
+        Assert.assertTrue(singleCharStr.getBytes().length == 1);
+
+        String singleChineseCharStr = "汉";
+        Assert.assertTrue(singleChineseCharStr.getBytes().length == 3);
+
         String str = "人124民";
         int nBytes = str.getBytes().length;
         int len = 7;
