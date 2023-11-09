@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ffaad523-ed46-4201-b961-1fd398321613" name="Default Changelist" comment="update files;&#10;add gitignore file;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/HelloWorld/CallAbleThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloWorld/CallAbleThread.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/HelloWorld/Color.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloWorld/Color.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/HelloWorld/Main$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloWorld/Main$1.class" afterDir="false" />
@@ -78,37 +79,40 @@
     <session id="-1897904552">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="6" />
           <entry key="project.open.time.11" value="2" />
+          <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.9" value="2" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1394" />
-          <entry key="Markdown" value="3" />
-          <entry key="PLAIN_TEXT" value="48" />
+          <entry key="Git file" value="8" />
+          <entry key="JAVA" value="1725" />
+          <entry key="Markdown" value="6" />
+          <entry key="PLAIN_TEXT" value="95" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Git file" value="1" />
-          <entry key="JAVA" value="35" />
-          <entry key="Markdown" value="1" />
+          <entry key="CLASS" value="1" />
+          <entry key="Git file" value="4" />
+          <entry key="JAVA" value="48" />
+          <entry key="Markdown" value="2" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
-              <caret line="308" column="8" selection-start-line="308" selection-start-column="8" selection-end-line="308" selection-end-column="8" />
+            <state relative-caret-position="191">
+              <caret line="1166" column="30" selection-start-line="1166" selection-start-column="30" selection-end-line="1166" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -117,11 +121,44 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/src.zip!/java/lang/String.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17157">
+              <caret line="956" column="18" selection-start-line="956" selection-start-column="18" selection-end-line="956" selection-end-column="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#36393#36394#0" expanded="true" />
+                <element signature="e#36459#36460#0" expanded="true" />
+                <element signature="e#82616#82617#0" expanded="true" />
+                <element signature="e#82667#82668#0" expanded="true" />
+                <element signature="e#94598#94599#0" expanded="true" />
+                <element signature="e#94636#94637#0" expanded="true" />
+                <element signature="e#104675#104676#0" expanded="true" />
+                <element signature="e#104730#104731#0" expanded="true" />
+                <element signature="e#111196#111197#0" expanded="true" />
+                <element signature="e#111251#111252#0" expanded="true" />
+                <element signature="e#121727#121728#0" expanded="true" />
+                <element signature="e#121769#121770#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="114">
-                <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
+              <first_editor relative-caret-position="152">
+                <caret line="8" column="40" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
               </first_editor>
               <second_editor />
             </state>
@@ -139,10 +176,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>testStringB</find>
-      <find>remove</find>
-      <find>Collection</find>
-      <find>values()</find>
       <find>testIn</find>
       <find>testString(</find>
       <find>keySet()</find>
@@ -165,10 +198,14 @@
       <find>subst</find>
       <find>toArray</find>
       <find>toArray(</find>
-      <find>remove(</find>
-      <find>LinkedList</find>
       <find>Queue</find>
       <find>BitSet</find>
+      <find>SortedSet</find>
+      <find>LinkedList</find>
+      <find>remove</find>
+      <find>getBytes</find>
+      <find>remove(</find>
+      <find>HashSet</find>
     </findStrings>
     <replaceStrings>
       <replace>Long</replace>
@@ -186,8 +223,9 @@
       <list>
         <option value="$APPLICATION_CONFIG_DIR$/idea.properties" />
         <option value="$PROJECT_DIR$/src/LeetCode637.java" />
-        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -222,7 +260,18 @@
           <State>
             <id>Go</id>
           </State>
+          <State>
+            <id>PHP</id>
+          </State>
+          <State>
+            <id>Quality toolsPHP</id>
+          </State>
         </expanded-state>
+        <selected-state>
+          <State>
+            <id>Android</id>
+          </State>
+        </selected-state>
       </profile-state>
     </entry>
   </component>
@@ -250,18 +299,13 @@
               <item name="JavaHelloWorld" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaHelloWorld" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="LeetCode637.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="JavaHelloWorld" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaHelloWorld" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Main.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope">
         <subPane subId="Scope 'Problems'; set:Problems; class com.intellij.psi.search.scope.ProblemsScope">
           <expand>
@@ -284,7 +328,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -294,16 +337,17 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1699282237325" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1699546591389" />
     <property name="configurable.Global.GOPATH.is.expanded" value="true" />
     <property name="configurable.Module.GOPATH.is.expanded" value="false" />
     <property name="configurable.Project.GOPATH.is.expanded" value="true" />
+    <property name="full.screen.before.presentation.mode" value="false" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.customizations" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -317,42 +361,32 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Main.testBitSet">
-    <configuration name="Main.testArrayList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.Main.testHashSet">
+    <configuration name="Main.subStringByBytes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HelloWorld" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Main" />
-      <option name="METHOD_NAME" value="testArrayList" />
+      <option name="METHOD_NAME" value="subStringByBytes" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main.testBitSet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Main.testHashSet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HelloWorld" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Main" />
-      <option name="METHOD_NAME" value="testBitSet" />
+      <option name="METHOD_NAME" value="testHashSet" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main.testCharNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Main.testListArrayAndArrayList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HelloWorld" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Main" />
-      <option name="METHOD_NAME" value="testCharNumber" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main.testMap" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="HelloWorld" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <option name="METHOD_NAME" value="testMap" />
+      <option name="METHOD_NAME" value="testListArrayAndArrayList" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -368,20 +402,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main.testSortedSet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HelloWorld" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <option name="METHOD_NAME" value="testSortedSet" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="JUnit.Main.testCharNumber" />
-      <item itemvalue="JUnit.Main.testArrayList" />
-      <item itemvalue="JUnit.Main.testMap" />
       <item itemvalue="JUnit.Main.testSortedMap" />
-      <item itemvalue="JUnit.Main.testBitSet" />
+      <item itemvalue="JUnit.Main.testSortedSet" />
+      <item itemvalue="JUnit.Main.testListArrayAndArrayList" />
+      <item itemvalue="JUnit.Main.subStringByBytes" />
+      <item itemvalue="JUnit.Main.testHashSet" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Main.testBitSet" />
+        <item itemvalue="JUnit.Main.testHashSet" />
         <item itemvalue="JUnit.Main.testSortedMap" />
-        <item itemvalue="JUnit.Main.testMap" />
-        <item itemvalue="JUnit.Main.testArrayList" />
-        <item itemvalue="JUnit.Main.testCharNumber" />
+        <item itemvalue="JUnit.Main.subStringByBytes" />
+        <item itemvalue="JUnit.Main.testListArrayAndArrayList" />
+        <item itemvalue="JUnit.Main.testSortedSet" />
       </list>
     </recent_temporary>
   </component>
@@ -419,7 +463,8 @@
       <workItem from="1672533525703" duration="10378000" />
       <workItem from="1686265239306" duration="2892000" />
       <workItem from="1694530246295" duration="6734000" />
-      <workItem from="1698846133044" duration="8876000" />
+      <workItem from="1698846133044" duration="14326000" />
+      <workItem from="1699453573535" duration="2805000" />
     </task>
     <task id="LOCAL-00001" summary="update files;&#10;add gitignore file;">
       <created>1699032347042</created>
@@ -449,49 +494,70 @@
       <option name="project" value="LOCAL" />
       <updated>1699278856345</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="1、update .gitignore&#10;2、update test for BitSet">
+      <created>1699282300039</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1699282300039</updated>
+    </task>
+    <task id="LOCAL-00006" summary="update files;&#10;add gitignore file;">
+      <created>1699366290619</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1699366290619</updated>
+    </task>
+    <task id="LOCAL-00007" summary="update files;&#10;add gitignore file;">
+      <created>1699376380534</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1699376380534</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Main_testSortedMap - 2023.09.14 at 05h 26m 57s.xml">
+    <history-entry file="Main_testSortedSet - 2023.11.06 at 23h 41m 47s.xml">
+      <configuration name="Main.testSortedSet" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Main_testListArrayAndArrayList - 2023.11.07 at 00h 03m 09s.xml">
+      <configuration name="Main.testListArrayAndArrayList" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Main_testListArrayAndArrayList - 2023.11.07 at 00h 04m 09s.xml">
+      <configuration name="Main.testListArrayAndArrayList" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Main_testListArrayAndArrayList - 2023.11.07 at 00h 04m 31s.xml">
+      <configuration name="Main.testListArrayAndArrayList" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Main_subStringByBytes - 2023.11.08 at 00h 36m 11s.xml">
+      <configuration name="Main.subStringByBytes" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Main_subStringByBytes - 2023.11.08 at 00h 37m 57s.xml">
+      <configuration name="Main.subStringByBytes" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Main_subStringByBytes - 2023.11.08 at 00h 38m 50s.xml">
+      <configuration name="Main.subStringByBytes" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Main_testSortedMap - 2023.11.08 at 23h 36m 32s.xml">
       <configuration name="Main.testSortedMap" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Main_testSortedMap - 2023.11.06 at 22h 31m 52s.xml">
-      <configuration name="Main.testSortedMap" configurationId="JUnit" />
+    <history-entry file="Main_testHashSet - 2023.11.09 at 22h 16m 27s.xml">
+      <configuration name="Main.testHashSet" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Main_testSortedMap - 2023.11.06 at 22h 34m 16s.xml">
-      <configuration name="Main.testSortedMap" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Main_testBitSet - 2023.11.06 at 22h 34m 33s.xml">
-      <configuration name="Main.testBitSet" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Main_testBitSet - 2023.11.06 at 22h 35m 57s.xml">
-      <configuration name="Main.testBitSet" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Main_testBitSet - 2023.11.06 at 22h 47m 21s.xml">
-      <configuration name="Main.testBitSet" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Main_testBitSet - 2023.11.06 at 22h 47m 48s.xml">
-      <configuration name="Main.testBitSet" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Main_testBitSet - 2023.11.06 at 22h 49m 17s.xml">
-      <configuration name="Main.testBitSet" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Main_testBitSet - 2023.11.06 at 22h 49m 48s.xml">
-      <configuration name="Main.testBitSet" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Main_testBitSet - 2023.11.06 at 22h 50m 11s.xml">
-      <configuration name="Main.testBitSet" configurationId="JUnit" />
+    <history-entry file="Main_testHashSet - 2023.11.09 at 22h 16m 40s.xml">
+      <configuration name="Main.testHashSet" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="184073000" />
+    <option name="totallyTimeSpent" value="192328000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19098713" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25965664" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -501,30 +567,30 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3290653" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.48426324" visible="true" weight="0.26751593" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.48426324" weight="0.2664042" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3299363" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4899857" weight="0.477707" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.4899857" visible="true" weight="0.53543305" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5100143" side_tool="true" weight="0.477707" />
       <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49337262" weight="0.32611465" />
-      <window_info anchor="right" x="0" y="0" width="310" height="677" id="Documentation" side_tool="true" weight="0.3297568" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.24964234" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Database" order="5" weight="0.3297568" />
-      <window_info anchor="right" id="Theme Preview" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Maven Projects" order="8" weight="0.3297568" />
-      <window_info anchor="right" auto_hide="true" id="SciView" order="9" show_stripe_button="false" type="FLOATING" weight="0.3297568" />
+      <window_info anchor="right" x="0" y="0" width="310" height="677" id="Documentation" order="0" side_tool="true" weight="0.3297568" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.24964234" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" weight="0.3297568" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Maven Projects" order="9" weight="0.3297568" />
+      <window_info anchor="right" id="SciView" order="10" weight="0.3297568" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24678111" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24892704" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -534,26 +600,27 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3290653" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.47364515" visible="true" weight="0.36956522" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.48426324" weight="0.26751593" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.3299363" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49814403" weight="0.1910828" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50185597" side_tool="true" weight="0.1910828" />
-      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49337262" weight="0.32736573" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Database" order="5" />
-      <window_info anchor="right" id="Theme Preview" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Maven Projects" order="8" />
-      <window_info anchor="right" id="SciView" order="9" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.4899857" visible="true" weight="0.477707" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5100143" side_tool="true" weight="0.477707" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49337262" weight="0.32611465" />
+      <window_info anchor="right" x="0" y="0" width="310" height="677" id="Documentation" order="0" side_tool="true" weight="0.3297568" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.24964234" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" weight="0.3297568" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Maven Projects" order="9" weight="0.3297568" />
+      <window_info anchor="right" auto_hide="true" id="SciView" order="10" show_stripe_button="false" type="FLOATING" weight="0.3297568" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -599,6 +666,7 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+    <MESSAGE value="1、update .gitignore&#10;2、update test for BitSet" />
     <MESSAGE value="update files;&#10;add gitignore file;" />
     <option name="LAST_COMMIT_MESSAGE" value="update files;&#10;add gitignore file;" />
   </component>
@@ -607,13 +675,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/lib/sa-jdi.jar!/sun/jvm/hotspot/utilities/BitMap.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="15" column="15" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/src.zip!/java/util/Vector.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -768,13 +829,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/src.zip!/java/util/SortedSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3591">
-          <caret line="212" column="6" selection-start-line="212" selection-start-column="6" selection-end-line="212" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/src.zip!/java/lang/Integer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="11020">
@@ -831,13 +885,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/src.zip!/java/util/Set.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="189" column="12" selection-start-line="189" selection-start-column="12" selection-end-line="189" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/src.zip!/java/util/Queue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="637">
@@ -863,10 +910,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
           <caret line="151" column="44" selection-start-line="151" selection-start-column="44" selection-end-line="151" selection-end-column="44" />
-          <folding>
-            <element signature="e#6252#6253#0" expanded="true" />
-            <element signature="e#6320#6321#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -881,10 +924,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="208" column="31" selection-start-line="208" selection-start-column="31" selection-end-line="208" selection-end-column="31" />
-          <folding>
-            <element signature="e#177013#177014#0" expanded="true" />
-            <element signature="e#177054#177055#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -902,42 +941,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="1957" column="18" selection-start-line="1957" selection-start-column="18" selection-end-line="1957" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#36393#36394#0" expanded="true" />
-            <element signature="e#36459#36460#0" expanded="true" />
-            <element signature="e#82616#82617#0" expanded="true" />
-            <element signature="e#82667#82668#0" expanded="true" />
-            <element signature="e#94598#94599#0" expanded="true" />
-            <element signature="e#94636#94637#0" expanded="true" />
-            <element signature="e#104675#104676#0" expanded="true" />
-            <element signature="e#104730#104731#0" expanded="true" />
-            <element signature="e#111196#111197#0" expanded="true" />
-            <element signature="e#111251#111252#0" expanded="true" />
-            <element signature="e#121727#121728#0" expanded="true" />
-            <element signature="e#121769#121770#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/src.zip!/java/util/List.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="377" column="16" selection-start-line="377" selection-start-column="16" selection-end-line="377" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -969,38 +972,83 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="114">
-            <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
-          </first_editor>
-          <second_editor />
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/Assert.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/src.zip!/java/util/SortedSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3591">
+          <caret line="212" column="6" selection-start-line="212" selection-start-column="6" selection-end-line="212" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/src.zip!/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10260">
+          <caret line="563" column="6" selection-start-line="563" selection-start-column="6" selection-end-line="563" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/src.zip!/java/util/BitSet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="164" column="17" selection-start-line="164" selection-start-column="17" selection-end-line="164" selection-end-column="17" />
+        <state relative-caret-position="268">
+          <caret line="539" column="27" selection-start-line="539" selection-start-column="27" selection-end-line="539" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17157">
+          <caret line="956" column="18" selection-start-line="956" selection-start-column="18" selection-end-line="956" selection-end-column="18" />
           <folding>
-            <element signature="e#5056#5057#0" expanded="true" />
-            <element signature="e#5112#5113#0" expanded="true" />
-            <element signature="e#29044#29045#0" expanded="true" />
-            <element signature="e#29082#29083#0" expanded="true" />
-            <element signature="e#34814#34815#0" expanded="true" />
-            <element signature="e#34865#34866#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#36393#36394#0" expanded="true" />
+            <element signature="e#36459#36460#0" expanded="true" />
+            <element signature="e#82616#82617#0" expanded="true" />
+            <element signature="e#82667#82668#0" expanded="true" />
+            <element signature="e#94598#94599#0" expanded="true" />
+            <element signature="e#94636#94637#0" expanded="true" />
+            <element signature="e#104675#104676#0" expanded="true" />
+            <element signature="e#104730#104731#0" expanded="true" />
+            <element signature="e#111196#111197#0" expanded="true" />
+            <element signature="e#111251#111252#0" expanded="true" />
+            <element signature="e#121727#121728#0" expanded="true" />
+            <element signature="e#121769#121770#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/src.zip!/java/util/Set.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="339" column="20" selection-start-line="339" selection-start-column="13" selection-end-line="339" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="308" column="8" selection-start-line="308" selection-start-column="8" selection-end-line="308" selection-end-column="8" />
+        <state relative-caret-position="191">
+          <caret line="1166" column="30" selection-start-line="1166" selection-start-column="30" selection-end-line="1166" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="152">
+            <caret line="8" column="40" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

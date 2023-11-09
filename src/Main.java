@@ -1158,6 +1158,16 @@ public class Main {
     }
 
     @Test
+    public void testHashSet() {
+        Set<Integer> set = new HashSet<>();
+        set.add(1);
+        set.add(2);
+        print("All:" + set.toString());
+        set.remove(2);
+        print("After delete 2:" + set.toString());
+    }
+
+    @Test
     public void testSetList() {
         Set<List<Integer>> listSet = new HashSet<>();
         List<Integer> list1 = new ArrayList<>();
