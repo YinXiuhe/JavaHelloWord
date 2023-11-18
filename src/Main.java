@@ -323,6 +323,7 @@ public class Main {
         }
     }
 
+
     @Test
     public void testArrayList() {
         int m = 10;
@@ -652,6 +653,13 @@ public class Main {
     }
 
     @Test
+    public void toBinaryString() {
+        Integer v = 10;
+        String vStr = Integer.toBinaryString(v.intValue());
+        print("toBinaryString#" + vStr);
+    }
+
+    @Test
     public void testIntegerEqual() {
         List<Integer> list = new ArrayList<>();
 
@@ -668,6 +676,7 @@ public class Main {
         Integer b2 = -5;
 
         print(String.format("val: %b, b2: %b", b, b1 == b2));
+
 
         for (int i = 0, j = list.size() - 1; i < j; ++i, --j) {
             if (list.get(i) != list.get(j)) {
@@ -845,6 +854,8 @@ public class Main {
         }
 
         print("String.valueOf(char): " + sb.toString());
+
+        sb.reverse();
     }
 
     @Test
@@ -905,6 +916,14 @@ public class Main {
 
     @Test
     public void testString() {
+
+        char[] baseArray = "AEIOUaeiou".toCharArray();
+
+        Arrays.sort(baseArray);
+
+        print(String.format("sort vowels array: %s", Arrays.toString(baseArray)));
+
+
         String rawWithSpace = " a bc  ed f    ".trim();
         String[] splitArray = rawWithSpace.split(" ", 3);
         Assert.assertEquals(3, splitArray.length);
@@ -944,7 +963,6 @@ public class Main {
 
         v1 = "  a B C d Efa  ";
 
-        v1.toLowerCase();
         v1.toUpperCase();
 
         StringBuilder v1Sb = new StringBuilder(v1);
@@ -1047,11 +1065,24 @@ public class Main {
     }
 
     @Test
-    public void isChineseBak() {
+    public void isChinese() {
         char c = '人';
         boolean b = String.valueOf(c).matches("[\u4e00-\u9fa5]");
 
         print(String.format("char: %c, boolean: %b", c, b));
+
+        Character.valueOf(c);
+
+        char[] chars = String.valueOf(c).toCharArray();
+
+        print(String.format("chars: %s", Arrays.toString(chars)));
+
+        Assert.assertTrue(chars.length >= 1);
+
+        byte[] bytes = String.valueOf(c).getBytes();
+        print(String.format("bytes: %s", Arrays.toString(bytes)));
+        Assert.assertTrue(bytes.length >= 3);
+
     }
 
     @Test
